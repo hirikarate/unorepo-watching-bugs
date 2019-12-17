@@ -14,6 +14,6 @@
     "engines": {
         "node": ">=12.0.0"
     },
-    "private": false,
+    "private": true,
     "main": "./dist/app/index.js"
 }
