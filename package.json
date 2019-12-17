@@ -1,0 +1,24 @@
+{
+    "name": "unorepo-watching-bugs",
+    "version": "1.0.0",
+    "description": "Demonstrates a bugs in watching mod of Unorepo.",
+    "scripts": {
+        "bootstrap": "lerna bootstrap",
+        "clean": "lerna run clean",
+        "compile": "lerna run compile --concurrency=2",
+        "watch:exec": "uno watch --ext ts --execute \"tsc --pretty\""
+    },
+    "devDependencies": {
+        "@types/node": "~12.7",
+        "lerna": "=3.16.4",
+        "rimraf": "^3.0.0",
+        "typescript": "~3.7",
+        "unorepo": "=0.0.26"
+    },
+    "workspaces": [
+        "packages/apps/*",
+		"packages/libs/*"
+    ],
+    "repository": "git@github.com:hirikarate/unorepo-watching-bugs.git",
+    "private": true
+}

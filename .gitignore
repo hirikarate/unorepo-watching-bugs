@@ -1,0 +1,9 @@
+lerna-debug.log
+**/coverage
+**/.nyc_output
+**/node_modules
+**/*.log
+**/coverage
+**/dist/test
+**/dist/**/*.map
+**/*.vpp.bak*
