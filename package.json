@@ -6,6 +6,7 @@
         "bootstrap": "lerna bootstrap",
         "clean": "lerna run clean",
         "compile": "lerna run compile --concurrency=2",
+        "watch": "uno watch --ext ts -s compile",
         "watch:exec": "uno watch --ext ts --execute \"tsc --pretty\""
     },
     "devDependencies": {
