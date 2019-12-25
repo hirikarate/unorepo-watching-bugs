@@ -6,19 +6,19 @@
         "bootstrap": "lerna bootstrap",
         "clean": "lerna run clean",
         "compile": "lerna run compile --concurrency=2",
-        "watch": "uno watch --ext ts -s compile",
-        "watch:exec": "uno watch --ext ts --execute \"tsc --pretty\""
+        "watch": "uno watch --ext ts -s compile --include-private",
+        "watch:exec": "uno watch --ext ts --execute \"tsc --pretty\" --include-private"
     },
     "devDependencies": {
         "@types/node": "~12.7",
         "lerna": "=3.16.4",
         "rimraf": "^3.0.0",
         "typescript": "~3.7",
-        "unorepo": "=0.0.26"
+        "unorepo": "=0.0.28"
     },
     "workspaces": [
         "packages/apps/*",
-		"packages/libs/*"
+        "packages/libs/*"
     ],
     "repository": "git@github.com:hirikarate/unorepo-watching-bugs.git",
     "private": true

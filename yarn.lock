@@ -4873,10 +4873,10 @@ universalify@^0.1.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
-unorepo@=0.0.26:
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/unorepo/-/unorepo-0.0.26.tgz#0e3c4ce5551385e4c3871fcb10ae09068c3e0e6f"
-  integrity sha512-WbN5NIa+lccvYfD8ZCRJwVGJ+prTQ82sNfMlxvLEHc7k2WOQeQY2ucBfbcxZfUiqjFXiwy7U1j/CKfOyqYztHw==
+unorepo@=0.0.28:
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/unorepo/-/unorepo-0.0.28.tgz#111c9a498670a48d30c59a3fec46405fb531fa25"
+  integrity sha512-RLFTMGrRgRHNKNZb51gY1QKOTuLUm1h1C89fGYuewF80d66RaQ9NYq9VXgNYOQJDybvyg5DaBxIkyqFx3kjH6g==
   dependencies:
     chalk "^2.4.2"
     chokidar "^2.0.4"
